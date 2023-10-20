@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Departments</title>
+</head>
+
+<body>
+    <h2>Departments Listed</h2>
+    {# block body #}
+    <table border="1">
+        <th>ID</th><th>Product</th><th>SKU</th>
+        
+        {# This is a comment #}
+        {% for department in departments %}
+          <tr>
+          <td>{{department.ID}}</td>
+          <td>{{department.name}}</td>
+          <td>{{department.number}}</td>
+          </tr>
+        {% endfor %}
+        
+        </table>
+
+    {# endblock #}
+    <div class="form_links">
+      <a class="form_link" href="{{url_for('logout') }}">Logout</a>
+  </div>
+</body>
+
+</html>
+
