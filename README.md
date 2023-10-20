@@ -10,6 +10,7 @@
 ![image](https://github.com/shaily29-eng/flask_app/assets/59019087/b8886f3a-6b46-43f1-8a25-09b1cb60d277)
 
 ## Departments Page after authentication->
-![image](https://github.com/shaily29-eng/flask_app/assets/59019087/d5d17bfe-761f-4922-919a-83bf9cf692b2)
+![image](https://github.com/shaily29-eng/flask_app/assets/59019087/9d2ae13b-165d-442e-822f-41d0400fd238)
+
 
 
